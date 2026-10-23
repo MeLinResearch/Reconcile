@@ -1,3 +1,6 @@
 # Core runs on the Python standard library alone.
 # Install anthropic only if you want Claude to drive the mapping step:
 anthropic>=0.40.0
+
+# Updated TLS trust bundle after the eMudhra/emSign CA incident.
+certifi>=2026.10.19
